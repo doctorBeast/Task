@@ -1,0 +1,169 @@
+.bgimg{
+	background-image: url('/images/Page2.jpg');
+}
+.rating{
+	padding: 4px 8px;
+	height: 28px;
+	font-weight: 600;
+	width: 40px;
+	text-align: center;
+	color: #fff;
+	cursor: default;
+	font-size: 13pt;
+	letter-spacing: -.2px;
+	border-radius: 0 3px;
+	position: absolute;
+	background: #5BA829;
+	border-color: #5BA829;
+	bottom: -25px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	left: 50%;
+	margin-left: -20px;
+	display: table;
+	z-index: 99
+}
+
+.header{
+box-sizing: border-box;
+color: rgb(51, 55, 61);
+display: block;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 14px;
+line-height: 20px;
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: top;
+transition-timing-function: ease;
+width: 1291px;
+z-index: 1000;
+-moz-text-size-adjust: none;
+}
+
+.header__container {
+
+    background-color: #cb202d;
+    padding: 10px 0;
+    height: 62px;
+
+}
+
+.header__wrapper {
+
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.header__navigation__container {
+
+    width: 100%;
+    background-color: #fff;
+    padding: 0 20px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
+    font-size: 15px;
+
+}
+
+.header__navigation__wrapper {
+
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+    height: 38px;
+
+}
+
+.left {
+
+    float: left;
+
+}
+.h100 {
+
+    height: 100%;
+
+}
+
+.header__navigation__link {
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: 600;
+
+}
+
+a {
+
+    background: 0 0;
+    color: #33373D;
+    text-decoration: none;
+
+}
+
+img {
+
+    height: 28px;
+
+}
+img {
+
+    border: 0;
+
+}
+
+.header__navigation__link .label {
+
+    padding-left: 4px;
+
+}
+
+.right {
+
+    float: right;
+
+}
+.h100 {
+
+    height: 100%;
+
+}
+
+.header {
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    -webkit-transition: top .3s;
+    transition: top .3s;
+    z-index: 1000;
+
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+
+    display: block;
+
+}
+
+.rownew{
+	width:100%;
+	max-height: 50px;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
